@@ -1,7 +1,4 @@
 import 'dart:io';
-
-import 'package:dart_example/class_object_choise.dart';
-
 class Get{
   var num1 , num2;
  void get(){
@@ -16,7 +13,6 @@ class Calculation extends Get{
     print("Sum = $result");
   }
   void sub(){
-    var num1 = 20, num2 = 5;
     var result = num1-num2;
     print("Result = $result");
   }
@@ -25,5 +21,6 @@ void main(){
   Calculation c = new Calculation();
   c.get();
   c.sum();
+  c.get();
   c.sub();
 }
