@@ -44,12 +44,11 @@ class LoanInfo extends BasicInfo{
   }
 }
 void main(){
-  BasicInfo b = new BasicInfo();
-  b.getBasicInfo();
   DeptInfo d = new DeptInfo();
   d.deptInfo();
   d.printDeptInfo();
   LoanInfo l = new LoanInfo();
+  l.getBasicInfo();
   l.getLoanInfo();
   l.printLoanInfo();
 }
