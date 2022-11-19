@@ -1,14 +1,15 @@
 import 'dart:io';
 
-int sum(limit){
-  if(limit>0){
-    if(limit%2!=0){
-      return limit+sum(limit-1);
-    }else{
-      return sum(limit-1);
+int sum(limit) {
+  if (limit > 0) {
+    if (limit % 2 != 0) {
+      return limit + sum(limit - 1);
+    } else {
+      return sum(limit - 1);
     }
+  } else {
+    return limit;
   }
-  return limit;
 }
 
 void main(){
