@@ -11,7 +11,7 @@ void main(){
   for(i=0;i<l.length;i++){
     if(l[i] is int){
       print(l[i]);
-     a=a+(l[i]);
+     // a=a+(l[i]);
 
       }else{
       k.add(word+l[i]);
