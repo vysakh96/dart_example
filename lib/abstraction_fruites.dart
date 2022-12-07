@@ -1,6 +1,4 @@
 
-import 'package:dart_example/inheritance_fruits.dart';
-
 abstract class Fruits{
   void apple();
   void melons();

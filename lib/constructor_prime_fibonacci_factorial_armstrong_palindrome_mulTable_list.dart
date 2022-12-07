@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:dart_example/prime_sum_fibonacci_armstrong_class_object.dart';
 
 class Maths{
   num ?a,b,fib,x,y,temp;

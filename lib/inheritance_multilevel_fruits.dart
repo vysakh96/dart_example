@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:dart_example/class_object_fruitsDetails.dart';
-
 class Fruits{
   var a , b ,c;
   void get(){

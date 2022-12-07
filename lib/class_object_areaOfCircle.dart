@@ -1,7 +1,4 @@
 import 'dart:io';
-
-import 'package:dart_example/constructor_areaOf_circle.dart';
-
 class Circle{
   void area(){
     print("Enter the radious");

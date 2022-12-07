@@ -1,7 +1,4 @@
 
-import 'package:dart_example/class_object_fruitsDetails.dart';
-import 'package:dart_example/inheritance_fruits.dart';
-
 class Fruits{
   void features(){
     print("features");

@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:dart_example/class_object_sumOf2Number.dart';
 
 // default constructor
 // class Add{

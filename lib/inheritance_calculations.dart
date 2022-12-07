@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:dart_example/class_object_choise.dart';
-
 class Calculation1{
   var num1 , num2;
   void get(){

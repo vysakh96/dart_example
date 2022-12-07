@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:dart_example/class_object_areaOfCircle.dart';
-import 'package:dart_example/inheritance%20_samples.dart';
 
 class Circle{
 
